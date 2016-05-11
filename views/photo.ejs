@@ -15,7 +15,9 @@
 <h1 class="photo-title"><%= name %></h1>
 
 <figure class="photo">
-  <img src="/<%= src %>?tn=0" alt="<%= name%>">
+  <a href="/<%= src %>">
+    <img src="/<%= src %>?tn=0" alt="<%= name%>">
+  </a>
   <figcaption>
     <% if (exif && exif.Description){ %>
     <%= exif.Description%>
