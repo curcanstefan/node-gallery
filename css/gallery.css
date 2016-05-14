@@ -1,13 +1,23 @@
 body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.breadcrumb {
+  padding-left: 10px;
+}
+
 h1, h2, h3 {
+  padding-left: 10px;
   font-family: Century Gothic, sans-serif;
   color: #333;
   font-weight: 300;
   clear: both;
 }
+
 h2 {
   color: #555;
 }
@@ -18,19 +28,14 @@ a {
 }
 
 section.info {
+  /* padding-left: 10px; */
   background-color: #f8f8f8;
 }
 
-ul li.thumb img{
-  max-width: 150px;
-  max-height: 150px;
+ul {
+  padding:0;
 }
-ul li.thumb figure {
-  width: 150px;
-  height: 150px;
-  padding: 0px 0px 10px 0px;
-  margin: 0;
-}
+
 ul li.thumb {
   text-align: center;
   list-style: none;
@@ -39,8 +44,32 @@ ul li.thumb {
   min-height: 190px;
   height: 190px;
   margin: 10px;
-  padding: 6px 8px;
+  padding: 8px 8px;
   border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul li.thumb figcaption {
+  max-height: 32px;
+  overflow: hidden;
+  font-size: 14;
+  word-wrap: break-word;
+}
+
+ul li.thumb figure {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  padding: 0px 0px 10px 0px;
+  margin: 0;
+}
+
+ul li.thumb figure img {
+  margin: auto;
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 figure.photo {
@@ -49,4 +78,8 @@ figure.photo {
 
 figure.photo img {
   max-width: 100%;
+}
+
+figure.photo figcaption {
+  padding-left: 10px;
 }
