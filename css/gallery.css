@@ -28,7 +28,6 @@ a {
 }
 
 section.info {
-  /* padding-left: 10px; */
   background-color: #f8f8f8;
 }
 
@@ -65,6 +64,7 @@ ul li.thumb figure {
 }
 
 ul li.thumb figure img {
+  overflow: hidden;
   margin: auto;
   height: auto;
   width: auto;
