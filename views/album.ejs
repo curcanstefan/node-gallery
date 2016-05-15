@@ -17,7 +17,7 @@
 <h1 class="album-title"><%= name %></h1>
 
 <% if (albums.length>0){ %>
-  <h2>Albums</h2>
+  <h2><%= albums.length %> Albums</h2>
   <ul class="albums">
     <% albums.forEach(function(album){ %>
       <li class="thumb">
@@ -33,7 +33,7 @@
 <% } %>
 
 <% if (photos.length>0){ %>
-  <h2>Photos</h2>
+  <h2><%= photos.length %> Photos</h2>
   <ul class="photos">
     <% photos.forEach(function(photo){ %>
       <li class="thumb">
