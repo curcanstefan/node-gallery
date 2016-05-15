@@ -59,6 +59,7 @@ ul li.thumb figure {
 }
 
 ul li.thumb figure img {
+  overflow: hidden;
   margin: auto;
   height: auto;
   width: auto;
