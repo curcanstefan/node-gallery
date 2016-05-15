@@ -27,10 +27,6 @@ a {
   text-decoration: none;
 }
 
-section.info {
-  background-color: #f8f8f8;
-}
-
 ul {
   padding:0;
 }
@@ -64,7 +60,6 @@ ul li.thumb figure {
 }
 
 ul li.thumb figure img {
-  overflow: hidden;
   margin: auto;
   height: auto;
   width: auto;
@@ -77,9 +72,34 @@ figure.photo {
 }
 
 figure.photo img {
+  padding: 10px;
   max-width: 100%;
 }
 
 figure.photo figcaption {
   padding-left: 10px;
+}
+
+section.info {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+section.info h2 {
+  padding: 5px 5px 10px 5px;
+  margin:0;
+}
+
+section.info table {
+  border-spacing: 0;
+}
+
+section.info table td {
+  padding: 5px;
+}
+
+section.info table td:first-child {
+  font-weight: bold;
+  padding-right: 20px;
 }
