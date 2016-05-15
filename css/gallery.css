@@ -68,11 +68,10 @@ ul li.thumb figure img {
 }
 
 figure.photo {
-  margin: 0;
+  margin: 10px;
 }
 
 figure.photo img {
-  padding: 10px;
   max-width: 100%;
 }
 
